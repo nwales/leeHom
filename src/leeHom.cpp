@@ -1816,7 +1816,7 @@ int main (int argc, char *argv[]) {
 			      "\t\t"+"     --auto" +"\t\t\t\t"+"Auto detect adapters, requires at least 1M reads, does NOT currently support UMIs (def. : "+boolStringify(detectAdapt)+")"+"\n"+
 
 			      "\t\t"+"-c , --FirstReadChimeraFilter" +"\t\t"+"If the forward read looks like this sequence, the cluster is filtered out.\n\t\t\t\t\t\t\tProvide several sequences separated by comma (def. Multiplex: "+options_adapter_chimera_BAM.substr(0,30)+")"+"\n"+
-			      "\t\t"+"-k , --key"+"\t\t\t\t"+"Key sequence with which each sequence starts. Comma separate for forward and reverse reads. (default '"+key+"')"+"\n"+
+			      "\t\t"+"-k , --keys"+"\t\t\t\t"+"Key sequence with which each sequence starts. Comma separate for forward and reverse reads. (default '"+key+"')"+"\n"+
 			      "\t\t"+"--trimkey"     +"\t\t\t\t"+"Trim the key sequence even for untrimmed. (default '"+boolStringify(trimKey)+"')"+"\n"+
 
 			      "\t\t"+"-i , --allowMissing"+"\t\t\t"+"Allow one base in one key to be missing or wrong. (default "+boolStringify(allowMissing)+")"+"\n"+
